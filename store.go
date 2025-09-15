@@ -1,8 +1,8 @@
-package raftstore
+package raftbadgerstore
 
 import "github.com/hashicorp/raft"
 
-type RaftStore interface {
+type Store interface {
 	Close() error
 	FirstIndex() (uint64, error)
 	LastIndex() (uint64, error)

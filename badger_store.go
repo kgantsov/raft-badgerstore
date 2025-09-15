@@ -1,4 +1,4 @@
-package raftstore
+package raftbadgerstore
 
 import (
 	"errors"
